@@ -1,9 +1,9 @@
 {
-  "name": "roots/bedrock",
+  "name": "cubetech/sofa",
   "type": "project",
   "license": "MIT",
-  "description": "WordPress boilerplate with modern development tools, easier configuration, and an improved folder structure",
-  "homepage": "https://roots.io/bedrock/",
+  "description": "WordPress boilerplate with modern development tools, easier configuration, and an improved folder structure (forked from roots/bedrock)",
+  "homepage": "https://github.com/cubetech/sofa",
   "authors": [
     {
       "name": "Scott Walkinshaw",
@@ -14,14 +14,18 @@
       "name": "Ben Word",
       "email": "ben@benword.com",
       "homepage": "https://github.com/retlehs"
+    },
+    {
+      "name": "Christoph S. Ackermann",
+      "email": "christoph.ackermann@cubetech.ch",
+      "homepage": "https://github.com/acki"
     }
   ],
   "keywords": [
-    "bedrock", "roots", "wordpress", "stack", "composer", "vagrant", "wp"
+    "sofa", "cubetech", "wordpress", "stack", "composer", "vagrant", "wp"
   ],
   "support": {
-    "issues": "https://github.com/roots/bedrock/issues",
-    "forum": "https://discourse.roots.io/category/bedrock"
+    "issues": "https://github.com/cubetech/sofa/issues"
   },
   "config": {
     "preferred-install": "dist"

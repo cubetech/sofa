@@ -1,8 +1,8 @@
-# [Bedrock](https://roots.io/bedrock/)
-[![Packagist](https://img.shields.io/packagist/v/roots/bedrock.svg?style=flat-square)](https://packagist.org/packages/roots/bedrock)
-[![Build Status](https://img.shields.io/travis/roots/bedrock.svg?style=flat-square)](https://travis-ci.org/roots/bedrock)
+# [cubetech Sofa](https://github.com/cubetech/sofa)
+[![Packagist](https://img.shields.io/packagist/v/cubetech/sofa.svg?style=flat-square)](https://packagist.org/packages/cubetech/sofa)
+[![Build Status](https://img.shields.io/travis/cubetech/sofa.svg?style=flat-square)](https://travis-ci.org/cubetech/sofa)
 
-Bedrock is a modern WordPress stack that helps you get started with the best development tools and project structure.
+cubetech Sofa is a modern WordPress stack that helps you get started with the best development tools and project structure. This project is a fork from roots/bedrock
 
 Much of the philosophy behind Bedrock is inspired by the [Twelve-Factor App](http://12factor.net/) methodology including the [WordPress specific version](https://roots.io/twelve-factor-wordpress/).
 
@@ -14,14 +14,6 @@ Much of the philosophy behind Bedrock is inspired by the [Twelve-Factor App](htt
 * Environment variables with [Dotenv](https://github.com/vlucas/phpdotenv)
 * Autoloader for mu-plugins (use regular plugins as mu-plugins)
 * Enhanced security (separated web root and secure passwords with [wp-password-bcrypt](https://github.com/roots/wp-password-bcrypt))
-
-Use [Trellis](https://github.com/roots/trellis) for additional features:
-
-* Easy development environments with [Vagrant](http://www.vagrantup.com/)
-* Easy server provisioning with [Ansible](http://www.ansible.com/) (Ubuntu 14.04, PHP 7, MariaDB)
-* One-command deploys
-
-See a complete working example in the [roots-example-project.com repo](https://github.com/roots/roots-example-project.com).
 
 ## Requirements
 
@@ -60,32 +52,24 @@ See a complete working example in the [roots-example-project.com repo](https://g
 
 ## Deploys
 
-There are two methods to deploy Bedrock sites out of the box:
+There are one method supported by cubetech to deploy Sofa sites out of the box:
 
-* [Trellis](https://github.com/roots/trellis)
 * [bedrock-capistrano](https://github.com/roots/bedrock-capistrano)
 
 Any other deployment method can be used as well with one requirement:
 
 `composer install` must be run as part of the deploy process.
 
-## Documentation
-
-Bedrock documentation is available at [https://roots.io/bedrock/docs/](https://roots.io/bedrock/docs/).
-
 ## Contributing
 
-Contributions are welcome from everyone. We have [contributing guidelines](https://github.com/roots/guidelines/blob/master/CONTRIBUTING.md) to help you get started.
+Contributions are welcome from everyone. We have [contributing guidelines](https://github.com/cubetech/sofa/blob/master/CONTRIBUTING.md) to help you get started.
 
 ## Community
 
 Keep track of development and community news.
 
-* Participate on the [Roots Discourse](https://discourse.roots.io/)
-* Follow [@rootswp on Twitter](https://twitter.com/rootswp)
-* Read and subscribe to the [Roots Blog](https://roots.io/blog/)
-* Subscribe to the [Roots Newsletter](https://roots.io/subscribe/)
-* Listen to the [Roots Radio podcast](https://roots.io/podcast/)
+* Follow [@cubetech_ch on Twitter](https://twitter.com/cubetech_ch)
+* Read and subscribe to the [Roots Blog](https://www.cubetech.ch/blog/)
 
 [roots-wp-salt]:https://roots.io/salts.html
 [wp-cli-dotenv]:https://github.com/aaemnnosttv/wp-cli-dotenv-command
