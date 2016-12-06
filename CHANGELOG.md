@@ -1,5 +1,6 @@
-### HEAD
+### 1.8.0
 
+* Rebranding to cubetech Sofa
 * Default `WP_ENV` to `production` instead of `development` ([#277](https://github.com/roots/bedrock/pull/277))
 
 ### 1.7.2: 2016-09-07
