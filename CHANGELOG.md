@@ -1,3 +1,9 @@
+### 1.8.1
+
+* Added new package sofa.devinstall
+* Added repository GitHub for sofa
+* Updated WordPress to 4.7
+
 ### 1.8.0
 
 * Rebranding to cubetech Sofa
