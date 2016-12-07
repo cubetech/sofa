@@ -65,7 +65,7 @@
       "vendor/bin/phpcs --ignore=web/wp/,vendor/ -n -s ."
     ],
     "post-create-project-cmd": [
-	  "composer run-script post-create-project-cmd -d ./vendor/cubetech/sofa.devinstall"
+	  "if [ -f ./vendor/cubetech/sofa.devinstall/cubetech.sh ]; then /bin/bash ./vendor/cubetech/sofa.devinstall/cubetech.sh; fi"
     ]
   }
 }
