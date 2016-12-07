@@ -1,3 +1,8 @@
+### 1.8.2
+
+* New devinstall installation routine
+* Fixed authors
+
 ### 1.8.1
 
 * Added new package sofa.devinstall
