@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "002cebed61028a46b1bffdf21e14a226",
-    "content-hash": "fdb5dbc90feb9bdcafa56f327eb98e35",
+    "hash": "b3ca0c4bd2f9b700389d0ac02179cd20",
+    "content-hash": "3b75f135200aa466ebe10b0da829932b",
     "packages": [
         {
             "name": "composer/installers",
@@ -603,19 +603,20 @@
         },
         {
             "name": "cubetech/sofa.devinstall",
-            "version": "dev-master",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cubetech/sofa.devinstall.git",
-                "reference": "a9419985997e7431f06f928b5effde7bb627547c"
+                "reference": "2bfabca05672b5be47acb6ed40f832b10d74ab5e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cubetech/sofa.devinstall/zipball/a9419985997e7431f06f928b5effde7bb627547c",
-                "reference": "a9419985997e7431f06f928b5effde7bb627547c",
+                "url": "https://api.github.com/repos/cubetech/sofa.devinstall/zipball/2bfabca05672b5be47acb6ed40f832b10d74ab5e",
+                "reference": "2bfabca05672b5be47acb6ed40f832b10d74ab5e",
                 "shasum": ""
             },
             "require": {
+                "cubetech/sofa": "*",
                 "php": ">=5.6",
                 "wp-cli/wp-cli": "1.0.0"
             },
@@ -643,7 +644,7 @@
                 "wordpress",
                 "wp"
             ],
-            "time": "2016-12-07 09:43:11"
+            "time": "2016-12-07 11:38:39"
         },
         {
             "name": "justinrainbow/json-schema",
@@ -1938,9 +1939,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "cubetech/sofa.devinstall": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

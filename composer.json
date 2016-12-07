@@ -6,16 +6,6 @@
   "homepage": "https://github.com/cubetech/sofa",
   "authors": [
     {
-      "name": "Scott Walkinshaw",
-      "email": "scott.walkinshaw@gmail.com",
-      "homepage": "https://github.com/swalkinshaw"
-    },
-    {
-      "name": "Ben Word",
-      "email": "ben@benword.com",
-      "homepage": "https://github.com/retlehs"
-    },
-    {
       "name": "Christoph S. Ackermann",
       "email": "christoph.ackermann@cubetech.ch",
       "homepage": "https://github.com/acki"
@@ -50,7 +40,7 @@
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.5.1",
-    "cubetech/sofa.devinstall": "dev-master"
+    "cubetech/sofa.devinstall": "1.0.0"
   },
   "extra": {
     "installer-paths": {
@@ -63,6 +53,9 @@
   "scripts": {
     "test": [
       "vendor/bin/phpcs --ignore=web/wp/,vendor/ -n -s ."
+    ],
+    "post-create-project-cmd": [
+	  "if [ -f ./vendor/cubetech/sofa.devinstall/cubetech.sh ]; then /bin/bash ./vendor/cubetech/sofa.devinstall/cubetech.sh; fi"
     ]
   }
 }
