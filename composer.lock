@@ -607,12 +607,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/cubetech/sofa.devinstall.git",
-                "reference": "a9419985997e7431f06f928b5effde7bb627547c"
+                "reference": "fb1e5040c79425fbba6c9be06b36a789d1e347b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cubetech/sofa.devinstall/zipball/a9419985997e7431f06f928b5effde7bb627547c",
-                "reference": "a9419985997e7431f06f928b5effde7bb627547c",
+                "url": "https://api.github.com/repos/cubetech/sofa.devinstall/zipball/fb1e5040c79425fbba6c9be06b36a789d1e347b5",
+                "reference": "fb1e5040c79425fbba6c9be06b36a789d1e347b5",
                 "shasum": ""
             },
             "require": {
@@ -643,7 +643,7 @@
                 "wordpress",
                 "wp"
             ],
-            "time": "2016-12-07 09:43:11"
+            "time": "2016-12-07 10:19:08"
         },
         {
             "name": "justinrainbow/json-schema",
